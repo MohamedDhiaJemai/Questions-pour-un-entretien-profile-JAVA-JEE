@@ -1,6 +1,8 @@
 # Questions-pour-un-entretien-profile-JAVA-JEE
 
+
 #### Partie 1: Questions générales
+
 
 - 1 . JEE : C'est l’ensemble de spécifications (JPA, JAX-WS, JMS...) pour créer des applications web Java, et c'est le serveur d’application qui fournit les implémentations.
 
@@ -34,7 +36,10 @@
 
 - 10 .	DevTools : une librairie java vient avec spring boot, permet le rechargement automatiquement des classes Java et leur configuration côté serveur. Après les changements côté serveur, il s'est déployé dynamiquement,
 
+
 #### Partie 2: Spring framework
+
+
 - 11 . Spring : est un framework open source pour construire et définir l'infrastructure d'une application Java, dont il facilite le développement et les tests.
 
 - 12 . Spring : est un framework de l’inversion contrôle pour créer des applications entreprises, on peut le sembler avec un conteneur web (tomcat) pour avoir un serveur application.
@@ -98,6 +103,7 @@
 
 #### Partie 3: Web service
 
+
 - 1 .	Un API (Application Programming Interface) est un ensemble de règles : interfaces Annotations et des classes abstraites. permettent à votre produit ou service de communiquer avec d'autres produits et services sans connaître les détails de leur mise en œuvre.
 
 - 2 .	Service web : C’est des composants web basés sur HTTP pour la communication et l'échange de données entre applications et systèmes distribués. On a deux spécifications  (JAX-WS et JAX-RS)
@@ -141,7 +147,9 @@ JPA | Eclipselink (Oracle) | Hibernate (Jboss), Ibatis
 Serveur Application | Glassfish (Oracle) | Wildfly (Jboss), websphere(IBM) 
 Bean validation | Hibernate Validation | Apache Bean Validation (formerly agimatec)
 
+
 #### Partie 4: Persistence de données ( JDBC, JPA, Hibernate, Spring data)
+
 
 - 1 . JDBC (Java DataBase Connectivity) est une API fournie avec Java permettant de développer des applications capables de se connecter à des bases de données relationnelles (SGBDR).
 
@@ -230,6 +238,7 @@ EntityManager est une API qui gère le cycle de vie des instances d'entité JPA.
 
 #### Partie 5: Programmation Réactive en Java
 
+
 - 1 . Deux modèles de programmation :
   * 	Modèle multi threads bloquant
     *  Programmation impérative.
@@ -290,6 +299,7 @@ Nous devrions l'utiliser lorsque nous voulons construire des systèmes qui sont 
 
 #### Partie 6: Micro-services
 
+	
 - 1 .	Deux architectures :
   *  Architecture basé sur une application monolithique 
   *  Architecture basé sur les micro-services.
@@ -358,3 +368,5 @@ Nous devrions l'utiliser lorsque nous voulons construire des systèmes qui sont 
 - 20 .	C'est quoi MapStruct ? Pour faire le mapping objet / objet ( DTO)
 
 - 21 .	Quand est-we que on est besion de Base de données NoSql ? Quand la quantité de données est très importante, exemple MongoDb
+
+	
